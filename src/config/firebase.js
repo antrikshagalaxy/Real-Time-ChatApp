@@ -4,16 +4,15 @@ import { createUserWithEmailAndPassword, getAuth, sendPasswordResetEmail, signIn
 import { collection, doc, getDocs, getFirestore, query, setDoc, where } from 'firebase/firestore'
 import { toast } from "react-toastify";
 
-// --------- Paste Your Firebase Config File Here ---------
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDr8BTa_bqxch2TAABU3hhDP8Jn2J9AhDM",
-    authDomain: "chat-app-cf0c3.firebaseapp.com",
-    projectId: "chat-app-cf0c3",
-    storageBucket: "chat-app-cf0c3.firebasestorage.app",
-    messagingSenderId: "402512886104",
-    appId: "1:402512886104:web:33a7bce18dc4dc4762cd2d",
-    measurementId: "G-40CHBLT77C"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig)
